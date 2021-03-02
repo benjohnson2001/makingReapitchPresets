@@ -144,4 +144,86 @@ public class Run2 {
       printJustIntervalCentDifference(centDiff(138.6,138.8), " for bass");
       printJustIntervalCentDifference(centDiff(523.2,525.7), " for organ");
    }
+   
+   
+   
+   /*
+    * 
+    * 
+    * output:
+    * 
+
+
+just intervals
+-------------------------------
+
+minor second: 		11.731285269777072
+major second: 		3.910001730774822
+minor third: 		15.641287000551893
+major third: 		-13.686286135165368
+perfect fourth: 	-1.9550008653865258
+flat fifth: 		-9.776284404390546
+perfect fifth: 		1.955000865388296
+minor sixth: 		13.686286135165368
+major sixth: 		-15.641287000553664
+minor seventh: 		-3.910001730774822
+major seventh: 		-11.731285269777072
+
+
+
+
+just intervals for rhythmA
+-------------------------------
+
+minor second: 		18.03815581157052
+major second: 		10.216872272568269
+minor third: 		21.948157542345342
+major third: 		-7.37941559337192
+perfect fourth: 	4.351869676406921
+flat fifth: 		-3.469413862597099
+perfect fifth: 		8.261871407181744
+minor sixth: 		19.993156676958815
+major sixth: 		-9.334416458760217
+minor seventh: 		2.3968688110186256
+major seventh: 		-5.424414727983624
+
+
+
+
+just intervals for bass
+-------------------------------
+
+minor second: 		9.234912740520256
+major second: 		1.4136292015180065
+minor third: 		13.144914471295078
+major third: 		-16.182658664422185
+perfect fourth: 	-4.451373394643341
+flat fifth: 		-12.272656933647362
+perfect fifth: 		-0.5413716638685193
+minor sixth: 		11.189913605908552
+major sixth: 		-18.137659529810477
+minor seventh: 		-6.406374260031637
+major seventh: 		-14.227657799033887
+
+
+
+
+just intervals for organ
+-------------------------------
+
+minor second: 		3.478652381224604
+major second: 		-4.342631157777646
+minor third: 		7.388654111999426
+major third: 		-21.938919023717837
+perfect fourth: 	-10.207633753938993
+flat fifth: 		-18.028917292943014
+perfect fifth: 		-6.297632023164171
+minor sixth: 		5.4336532466129
+major sixth: 		-23.89391988910613
+minor seventh: 		-12.162634619327289
+major seventh: 		-19.983918158329537
+ 
+ 
+    * 
+    * */
 }
