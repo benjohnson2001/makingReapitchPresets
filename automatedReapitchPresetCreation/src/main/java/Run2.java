@@ -95,16 +95,36 @@ public class Run2 {
 
 //      System.out.println("B4_ET: " + equalTemperamentFrequency("B4"));
 
-      double justMinorSecond = equalTemperamentFrequency("B4")*16/15;
-      double justMajorSecond = equalTemperamentFrequency("B4")*9/8;
+
+      // Five Limit
+
+//      double justMinorSecond = equalTemperamentFrequency("B4")*16/15;
+//      double justMajorSecond = equalTemperamentFrequency("B4")*9/8;
+//      double justMinorThird = equalTemperamentFrequency("B4")*6/5;
+//      double justMajorThird = equalTemperamentFrequency("B4")*5/4;
+//      double justPerfectFourth = equalTemperamentFrequency("B4")*4/3;
+//      double justTritone = equalTemperamentFrequency("B4")*45/32;
+//      double justPerfectFifth = equalTemperamentFrequency("B4")*3/2;
+//      double justMinorSixth = equalTemperamentFrequency("B4")*8/5;
+//      double justMajorSixth = equalTemperamentFrequency("B4")*5/3;
+//      double justMinorSeventh = equalTemperamentFrequency("B4")*16/9;
+////      double justMinorSeventh = equalTemperamentFrequency("B4")*9/5;
+//      double justMajorSeventh = equalTemperamentFrequency("B4")*15/8;
+
+
+      // Seven Limit
+
+      double justMinorSecond = equalTemperamentFrequency("B4")*15/14;
+      double justMajorSecond = equalTemperamentFrequency("B4")*8/7;
       double justMinorThird = equalTemperamentFrequency("B4")*6/5;
       double justMajorThird = equalTemperamentFrequency("B4")*5/4;
       double justPerfectFourth = equalTemperamentFrequency("B4")*4/3;
-      double justTritone = equalTemperamentFrequency("B4")*45/32;
+      double augmentedFourth = equalTemperamentFrequency("B4")*7/5;
+//      double diminishedFifth = equalTemperamentFrequency("B4")*10/7;
       double justPerfectFifth = equalTemperamentFrequency("B4")*3/2;
       double justMinorSixth = equalTemperamentFrequency("B4")*8/5;
       double justMajorSixth = equalTemperamentFrequency("B4")*5/3;
-      double justMinorSeventh = equalTemperamentFrequency("B4")*16/9;
+      double justMinorSeventh = equalTemperamentFrequency("B4")*7/4;
       double justMajorSeventh = equalTemperamentFrequency("B4")*15/8;
 
 
@@ -127,7 +147,7 @@ public class Run2 {
       System.out.println("minor third: \t\t" + (centDiff(justMinorThird, equalTemperamentFrequency("D5")) + offset));
       System.out.println("major third: \t\t" + (centDiff(justMajorThird, equalTemperamentFrequency("D#5")) + offset));
       System.out.println("perfect fourth: \t" + (centDiff(justPerfectFourth, equalTemperamentFrequency("E5")) + offset));
-      System.out.println("flat fifth: \t\t" + (centDiff(justTritone, equalTemperamentFrequency("F5")) + offset));
+      System.out.println("flat fifth: \t\t" + (centDiff(augmentedFourth, equalTemperamentFrequency("F5")) + offset));
       System.out.println("perfect fifth: \t\t" + (centDiff(justPerfectFifth, equalTemperamentFrequency("F#5")) + offset));
       System.out.println("minor sixth: \t\t" + (centDiff(justMinorSixth, equalTemperamentFrequency("G5")) + offset));
       System.out.println("major sixth: \t\t" + (centDiff(justMajorSixth, equalTemperamentFrequency("G#5")) + offset));
@@ -143,87 +163,8 @@ public class Run2 {
       printJustIntervalCentDifference(centDiff(110,109.6), " for rhythmA");
       printJustIntervalCentDifference(centDiff(138.6,138.8), " for bass");
       printJustIntervalCentDifference(centDiff(523.2,525.7), " for organ");
+
+
+
    }
-   
-   
-   
-   /*
-    * 
-    * 
-    * output:
-    * 
-
-
-just intervals
--------------------------------
-
-minor second: 		11.731285269777072
-major second: 		3.910001730774822
-minor third: 		15.641287000551893
-major third: 		-13.686286135165368
-perfect fourth: 	-1.9550008653865258
-flat fifth: 		-9.776284404390546
-perfect fifth: 		1.955000865388296
-minor sixth: 		13.686286135165368
-major sixth: 		-15.641287000553664
-minor seventh: 		-3.910001730774822
-major seventh: 		-11.731285269777072
-
-
-
-
-just intervals for rhythmA
--------------------------------
-
-minor second: 		18.03815581157052
-major second: 		10.216872272568269
-minor third: 		21.948157542345342
-major third: 		-7.37941559337192
-perfect fourth: 	4.351869676406921
-flat fifth: 		-3.469413862597099
-perfect fifth: 		8.261871407181744
-minor sixth: 		19.993156676958815
-major sixth: 		-9.334416458760217
-minor seventh: 		2.3968688110186256
-major seventh: 		-5.424414727983624
-
-
-
-
-just intervals for bass
--------------------------------
-
-minor second: 		9.234912740520256
-major second: 		1.4136292015180065
-minor third: 		13.144914471295078
-major third: 		-16.182658664422185
-perfect fourth: 	-4.451373394643341
-flat fifth: 		-12.272656933647362
-perfect fifth: 		-0.5413716638685193
-minor sixth: 		11.189913605908552
-major sixth: 		-18.137659529810477
-minor seventh: 		-6.406374260031637
-major seventh: 		-14.227657799033887
-
-
-
-
-just intervals for organ
--------------------------------
-
-minor second: 		3.478652381224604
-major second: 		-4.342631157777646
-minor third: 		7.388654111999426
-major third: 		-21.938919023717837
-perfect fourth: 	-10.207633753938993
-flat fifth: 		-18.028917292943014
-perfect fifth: 		-6.297632023164171
-minor sixth: 		5.4336532466129
-major sixth: 		-23.89391988910613
-minor seventh: 		-12.162634619327289
-major seventh: 		-19.983918158329537
- 
- 
-    * 
-    * */
 }
