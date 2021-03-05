@@ -122,4 +122,34 @@ public class Run {
       System.out.println("D#4_JI: " + justFifth + "  (" + centDiff(justFifth2, equalTemperamentFrequency("D#4")) + " cents from ET)");
 
    }
+
 }
+
+   /*
+
+
+   C2_ET: 65.40639132514966
+E2_ET: 82.4068892282175
+G2_ET: 97.99885899543733
+
+
+E2_JI: 81.75798915643708  (-13.686286135165368 cents from ET)
+G2_JI: 98.10958698772448  (1.955000865387411 cents from ET)
+
+
+----
+
+
+G#3_ET: 207.65234878997256
+C4_ET: 261.6255653005986
+D#4_ET: 311.1269837220809
+
+
+C4_JI: 81.75798915643708  (-13.686286135165368 cents from ET)
+D#4_JI: 98.10958698772448  (1.9550008653865258 cents from ET)
+
+Process finished with exit code 0
+
+
+    */
+
